@@ -1,26 +1,37 @@
 # Snake Game using Java Swing
-
 ![Snake Game Demo](url/to/demo.gif) <!-- If you have a demo gif or screenshot, include it here -->
-
 ## Description
 
-This project is a simple Snake Game developed using the Java Swing library. The game allows players to control a snake and make it eat food to grow in size and score points. The game ends when the snake collides with the border or its own body.
+This project is a simple Snake Game developed using the Java Swing library. The game allows players to control a snake and make it eat food to grow in size and score points. The game ends when the snake collides with the border or its own body. The game provides the following functionalities:
 
-The game features include:
+- **Controlling the Snake**: Players can guide the snake's movement using arrow keys .
+- **Eating Food**: The snake can consume food (represented by an apple) to increase its size and score points.
+- **Increasing Size and Scores**: As the snake eats more food, it grows in size, and the player's score increases.
+- **Ending the Game**: The game ends when the snake collides with obstacles, such as the border or its own body.
 
-- **Basic UI**: The game window is created using Java Swing components, with appropriate dimensions and background color.
-- **Graphics**: Images are loaded to represent the snake, food, and other components, and they are drawn on the window at their respective positions.
-- **Snake Mechanics**: The snake moves continuously in a specific direction, and when it consumes food, it grows in size.
-- **Control**: Players can control the snake's movement using arrow keys on their keyboard.
-- **Collisions**: The game checks for collisions with the border and the snake's body to determine when the game should end.
-- **Score Display**: The player's score is displayed on the screen during gameplay.
-- **Game Over Message**: When the game ends, a "Game Over" message is displayed on the screen.
+The game demo showcases a moving three-dot snake, with the head represented by a red dot, the body by green dots, and the apple as the food.
+
+## Features
+
+To create the Snake Game, the following features will be implemented:
+
+1. **Basic UI**: The game will have a user interface with frames, content, a content pane, dimensions, and a background color.
+
+2. **Graphics**: Graphics will be used to load images and draw components, such as the snake, apple, and game board, in their appropriate positions.
+
+3. **Snake Mechanics**: The game will implement the mechanics of the snake, defining how it moves and consumes food.
+
+4. **Control**: Players will control the snake's movement using arrow keys or other specified controls.
+
+5. **Collision Detection**: The game will check for collisions with the border and the snake's body to determine when the game should end.
+
+6. **Score and Game Over Display**: The game will display the player's score during gameplay and show a "Game Over" message when the game ends.
 
 ## Installation
 
 To run the Snake Game, you need to have Java installed on your system. Follow the steps below to get started:
 
-1. Clone the repository: `git clone https://github.com/yourusername/your-repo.git`
+1. Clone the repository: `git clone https://github.com/Ojas-Pratap-Singh/SnakeGame.git
 2. Open the project in your preferred Java development environment (e.g., Eclipse, IntelliJ).
 3. Compile and run the `SnakeGame.java` class.
 
@@ -32,34 +43,3 @@ To run the Snake Game, you need to have Java installed on your system. Follow th
 4. Avoid collisions with the border and the snake's body, as it will end the game.
 5. Try to achieve the highest score possible!
 
-## Classes Used
-
-- `JButton`: Used for buttons, e.g., for "Start," "Pause," or "Restart" functionality (if applicable).
-- `JCheckBox`: Optional - used for enabling specific game options (e.g., sound on/off).
-- `JComboBox`: Optional - used for dropdown menus or selecting different game modes (if applicable).
-- `JFileChooser`: Optional - used for file handling (e.g., saving high scores).
-- `JFrame`: The main window that holds the game content and components.
-
-## Styling
-
-The game window is designed to provide a visually appealing and engaging gaming experience. The background color and layout are carefully chosen to enhance the game's aesthetics.
-
-## Contributing
-
-Contributions to this project are welcome! If you have any improvements, bug fixes, or new features to suggest, please follow the standard GitHub workflow:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/your-feature-name`.
-5. Submit a pull request.
-
-Please ensure your code follows best practices and has appropriate comments and documentation.
-
-## License
-
-[Include the appropriate license for your project. For example, MIT, Apache, GNU, etc.]
-
----
-
-Feel free to customize this README further to include specific instructions or additional details about your Snake Game project. Good luck with your project!
